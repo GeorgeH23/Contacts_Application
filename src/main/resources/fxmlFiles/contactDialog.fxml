@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<DialogPane style="-fx-background-color: lightBlue;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ContactDialogController">
+    <headerText>
+        Fill in the information for the new Contact
+    </headerText>
+    <content>
+        <GridPane hgap="10" vgap="10">
+            <Label style="-fx-font-size: 14px;" text="First Name: " GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <TextField fx:id="firstNameField" GridPane.columnIndex="1" GridPane.rowIndex="0" promptText="First Name"/>
+
+            <Label style="-fx-font-size: 14px;" text="Last Name: " GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <TextField fx:id="lastNameField" GridPane.columnIndex="1" GridPane.rowIndex="1" promptText="Last Name"/>
+
+            <Label style="-fx-font-size: 14px;" text="Phone Number: " GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <TextField fx:id="phoneNumberField" GridPane.columnIndex="1" GridPane.rowIndex="2" promptText="Phone Number"/>
+
+            <Label style="-fx-font-size: 14px;" text="Notes: " GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <TextField fx:id="notesField" GridPane.columnIndex="1" GridPane.rowIndex="3" promptText="Notes"/>
+         <columnConstraints>
+            <ColumnConstraints />
+            <ColumnConstraints />
+         </columnConstraints>
+         <rowConstraints>
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+            <RowConstraints />
+         </rowConstraints>
+
+        </GridPane>
+    </content>
+</DialogPane>

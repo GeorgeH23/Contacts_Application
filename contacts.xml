@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contacts>
+<contact>
+	<first_name>Digital</first_name>
+	<last_name>AssetInvestor</last_name>
+	<phone_number>+1 134 567 778</phone_number>
+	<notes>XRP!</notes>
+</contact>
+<contact>
+	<first_name>George</first_name>
+	<last_name>Harpa</last_name>
+	<phone_number>0756822657</phone_number>
+	<notes> - </notes>
+</contact>
+<contact>
+	<first_name>John</first_name>
+	<last_name>Doe</last_name>
+	<phone_number>0101010101</phone_number>
+	<notes> - </notes>
+</contact>
+<contact>
+	<first_name>Frank</first_name>
+	<last_name>Underwood</last_name>
+	<phone_number>+10789911911</phone_number>
+	<notes>There are two kinds of pain.</notes>
+</contact>
+</contacts>
